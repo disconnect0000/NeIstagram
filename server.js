@@ -9,9 +9,9 @@ app.use(express.json());
 
 const db = mysql.createConnection({
   host: "eu-cdbr-west-03.cleardb.net",
-  user: "b8cd93cd0b3cb6",
-  password: "bd5a9153",
-  database: "heroku_fda71d19696ad61",
+  user: "b6cb3b1a432d87",
+  password: "99576ad0",
+  database: "heroku_54778700010f67f",
 });
 
 app.post("/users/register", (req, res) => {
