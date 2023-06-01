@@ -8,10 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: "eu-cdbr-west-03.cleardb.net",
-  user: "b6cb3b1a432d87",
-  password: "99576ad0",
-  database: "heroku_54778700010f67f",
+  host: "dpg-chsh8e5269vdk4n8dqm0-a",
+  user: "neistagradatabase",
+  password: "dF4QQ6ZhTZCk0ruPgVloulZKVieAz260",
+  database: "neistagradatabase",
 });
 
 app.post("/users/register", (req, res) => {
@@ -98,6 +98,6 @@ app.post("/user", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT, (req, res) => {
+app.listen(5432, (req, res) => {
   console.log("listening");
 });
