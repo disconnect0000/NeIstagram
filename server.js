@@ -7,7 +7,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-//mysql://b8cd93cd0b3cb6:bd5a9153@eu-cdbr-west-03.cleardb.net/heroku_fda71d19696ad61?
 const db = mysql.createConnection({
   host: "eu-cdbr-west-03.cleardb.net",
   user: "b8cd93cd0b3cb6",
