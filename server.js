@@ -8,10 +8,10 @@ app.use(cors());
 app.use(express.json());
 
 const db = mysql.createConnection({
-  host: "dpg-chsh8e5269vdk4n8dqm0-a",
-  user: "neistagradatabase",
-  password: "dF4QQ6ZhTZCk0ruPgVloulZKVieAz260",
-  database: "neistagradatabase",
+  host: "aws.connect.psdb.cloud",
+  user: "2kmc68019wwmrvkbmt9v",
+  password: "pscale_pw_nb0KyroBF0ICclvMuePFQJGvZRYYiLwbIDgVQrxmZdb",
+  database: "ne-instagram-database",
 });
 
 app.post("/users/register", (req, res) => {
